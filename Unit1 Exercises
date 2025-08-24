@@ -1,0 +1,64 @@
+Unit 1 Exercises: Data Structure Concepts
+The following questions will ask you to describe the various objects we learned about in the first Unit.
+
+I'm not giving you coding exercises, because we will learn all the coding technqiues we need as we move through the course.
+
+What I do need from you right now, is a conceptual understanding how how data is stored in our computer, when we use python.
+
+Task1:
+
+Describe the similarities and differences between an int and a float in python.
+
+Answer1:
+
+A int-integer values like 1,2,3,4,5 Float are decimal opint values for instance 1.2,1.5,3.0 The simialrities between the two are that you can represent some numbers like integers in both ways. For instances, 2 in int and 2.0 in float refer to the same numebr of 2.
+
+Task2:
+
+Describe the similarities and differences between: strings, lists, and dicts.
+
+Answer2:
+
+Simialritys between strings, lists and dicts are are that they can hold strings, they are iteratable as well. Diferences: Strings are immutable; Dicts use a value key reference; and lista and disct can hold all types of data.
+
+Task3:
+
+What is a numpy array? Why would we ever use one over a list or dict?
+
+Answer3:
+
+Utilizing the class of numpy, the numpy array holds a collexcts of data- that are the same type and are imutable. We use numpys over list or dicts as Arrays support element wise multiplication, addition, subtraction, and division by constants. Which is just what would happen to vectors, the mathematical object arrays were modeled after.
+
+Task4:
+
+What is a pandas dataframe? Why would we ever want to use one over a numpy array?
+
+Answer4: Used from the class of pandas, the pd dataframe is ustilsed for data tables, or storgin data in rows and columns. As pandas is like builds on top of numpy, it as more features that array can't offer.
+
+Task5:
+
+What are for loops, and why would we ever use them?
+
+Answer5:
+
+Instead of repecting (writing) code a million times, for loops are used. For loops aid in many other things like running till a condition is fuflied or wrtiing shorter code for a good result.
+
+Bonus: Faster Data Wrangling
+No, this is not extra credit. There will never be extra credit in this class. Only do these tasks if they sound fun, or to procrastinate on your other coursework.
+
+I mentioned in the notes that polars is a library that is just plain faster than pandas. I've never actually played with it myself, so I'm shifting that responsibility over to you.
+
+Task6
+
+Redo Task11 from the notes, but in polars.
+
+Task7
+
+Measure how much faster polars is at the Task11 operation than pandas.
+
+Task8:
+
+Explain, in detail, exactly why polars is faster than pandas. Is anything lost by making these changes? Is polars strictly better than pandas? If so, why would pandas exist in the first place?
+
+Remember, this is supposed to be fun. If it's not, stop and doing something else.
+
